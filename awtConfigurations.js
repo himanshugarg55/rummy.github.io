@@ -3,32 +3,32 @@
 // Min Aspect Ratio = 2
 // Max-Min Aspect Ratio (MMAR) = 3
 // Maximize To Window = 4
-var options = 4;
+var options = &&& options &&&;
 
 
 
 // if it's not necessary, enter "1"
 
 // Max Aspect Ratio
-var maxAspectRatioWidth = 1;
-var maxAspectRatioHeight = 1;
+var maxAspectRatioWidth = &&& maxAspectRatioWidth &&&;
+var maxAspectRatioHeight = &&& maxAspectRatioHeight &&&;
 
 // Min Aspect Ratio
-var minAspectRatioWidth = 1;
-var minAspectRatioHeight = 1;
+var minAspectRatioWidth = &&& minAspectRatioWidth &&&;
+var minAspectRatioHeight = &&& minAspectRatioHeight &&&;
 
 // Fixed Aspect Ratio
-var fixedAspectRatioWidth = 16;
-var fixedAspectRatioHeight = 9;
+var fixedAspectRatioWidth = &&& fixedAspectRatioWidth &&&;
+var fixedAspectRatioHeight = &&& fixedAspectRatioHeight &&&;
 
 /////////////////////////////////////////////////////////////////////////
 
-var startToLoadButton = true;
+var startToLoadButton = &&& startToLoadButton &&&;
 
 /////////////////////////////////////////////////////////////////////////
 
-var watchVideoButtonAutoSize = false;
-var playPongButtonAutoSize = false;
+var watchVideoButtonAutoSize = &&& watchVideoButtonAutoSize &&&;
+var playPongButtonAutoSize = &&& playPongButtonAutoSize &&&;
 
-var watchVideoButtonFontSize = "12px";
-var playPongButtonFontSize = "13px";
+var watchVideoButtonFontSize = "&&& watchVideoButtonFontSize &&&";
+var playPongButtonFontSize = "&&& playPongButtonFontSize &&&";
