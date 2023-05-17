@@ -118,7 +118,7 @@
 }
 
 .companyLogoImage {
-	width: &&& companyLogoSize &&&%;
+	width: 100%;
 	display: none;
 	margin-right: auto;
 	margin-top: auto;
@@ -265,7 +265,7 @@ color: rgb(190, 246, 255);
 	clear: none;
 	margin-left: auto;
 	margin-right: auto;
-	width: &&& gameLogoSize &&&%;
+	width: 50%;
 	}
 		
 	  #loader {
