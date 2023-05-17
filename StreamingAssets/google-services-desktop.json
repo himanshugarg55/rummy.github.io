@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "249134787448",
+    "firebase_url": "https://rummypassion-bd656.firebaseio.com",
+    "project_id": "rummypassion-bd656",
+    "storage_bucket": "rummypassion-bd656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249134787448:android:2bfa202ae28eb3ae",
+        "android_client_info": {
+          "package_name": "com.passiongaming.rummypassion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249134787448-vit99go5pevakt6vv2sbfr5sgod4oafh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHVzjI6TaoopqLZGifqPV1PynbiHr5n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249134787448-vit99go5pevakt6vv2sbfr5sgod4oafh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "249134787448-8vj1trqmqotjv47vm3cen39p9em6oukg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.passiongaming.rummypassion",
+                "app_store_id": "1440449810"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249134787448:android:ce94523c6cecaa3590368d",
+        "android_client_info": {
+          "package_name": "com.pg.rummypassion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249134787448-vit99go5pevakt6vv2sbfr5sgod4oafh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHVzjI6TaoopqLZGifqPV1PynbiHr5n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249134787448-vit99go5pevakt6vv2sbfr5sgod4oafh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "249134787448-8vj1trqmqotjv47vm3cen39p9em6oukg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.passiongaming.rummypassion",
+                "app_store_id": "1440449810"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
