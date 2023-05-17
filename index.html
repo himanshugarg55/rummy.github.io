@@ -43,18 +43,18 @@
 
     <div class="awtBackground" style="width: 100%; height: 100%;">
         <div id="pb" class="vertical-centered-box">
-            <canvas class="pg-canvas" style="display: none;" width="606" height="606"></canvas>
-            <canvas class="pg-canvas" width="1505" height="1178" style="display: none;"></canvas>
+            <canvas class="pg-canvas" style="display: block;" width="606" height="606"></canvas>
+            <canvas class="pg-canvas" width="1505" height="1178" style="display: block;"></canvas>
         </div>
         <div id="pf" class="vertical-centered-box">
-            <canvas class="pg-canvas" style="display: none;" width="606" height="606"></canvas>
-            <canvas class="pg-canvas" width="1505" height="1178" style="display: none;"></canvas>
+            <canvas class="pg-canvas" style="display: block;" width="606" height="606"></canvas>
+            <canvas class="pg-canvas" width="1505" height="1178" style="display: block;"></canvas>
         </div>
     </div>
 
     <div id="loader">
         <div class="awtCanvas1" style="transform: scale(calc(0.13*var(--agwww)));">
-            <img src="gameLogo.png" class="gameLogo" style="display: none;">
+            <img src="gameLogo.png" class="gameLogo" style="display: block;">
             <div class="progressBar" style="display: block;">
                 <div class="full"></div>
             </div>
@@ -64,7 +64,7 @@
                     RUN GAME
                 </button>
             </div>
-            <button style="display: none;" id="watchVideoButton" onclick="
+            <button style="display: inline;" id="watchVideoButton" onclick="
                 document.querySelector('.hideButton').style.opacity='100%';
                 document.querySelector('.hideButton').style.pointerEvents = 'all';
                 document.querySelector('#videoIFrame').style.height='260px';
@@ -114,7 +114,7 @@
                     </button>
                 </div>
             </div>
-            <button style="display: none;" id="playPongButton" onclick="
+            <button style="display: inline;" id="playPongButton" onclick="
                 document.querySelector('.hideButton2').style.opacity = '100%';
                 document.querySelector('.hideButton2').style.pointerEvents = 'all';
                 document.querySelector('#gamePongCanvas').style.height='260px';
@@ -126,7 +126,7 @@
                 <img style="position: relative;width: 100%;" src="playButton.png">
                 <div
                     style="color: #20283b;top: 12px;position: absolute;left: 75px;font-size: 26px;width: 40%;height: 64%;line-height:  normal !important;text-align: left;font-family: 'Play', sans-serif;
-                    display: none;
+                    display: flex;
                     justify-content: left;align-items: center;text-decoration-style: inherit;">
                     <div id="text2" style="font-size: 11px;">
                         PLAY PONG
@@ -164,7 +164,7 @@
                     </button>
                 </div>
             </div>
-            <div class="description" style="height: 200px; width: 800px; margin-top: 0px; margin-bottom: 0px; background-color: rgba(0, 23, 20, 0.11); transform: scale(.65), translate(-50%,-50%); justify-content: center; align-items: center; display: none; margin-right: auto; margin-left: auto; position: fixed; bottom: 50px; top: auto; left: 5px; right: 5px; transform: scale(.5) translate(0%, 50%); pointer-events: all;">
+            <div class="description" style="height: 200px; width: 800px; margin-top: 0px; margin-bottom: 0px; background-color: rgba(0, 23, 20, 0.11); transform: scale(.65), translate(-50%,-50%); justify-content: center; align-items: center; display: flex; margin-right: auto; margin-left: auto; position: fixed; bottom: 50px; top: auto; left: 5px; right: 5px; transform: scale(.5) translate(0%, 50%); pointer-events: all;">
                 <p style="color: rgb(190, 246, 255);letter-spacing: 1px;position: relative;font-family: Consolas, &quot;Andale Mono&quot;, &quot;Lucida Console&quot;, &quot;Lucida Sans Typewriter&quot;, Monaco, &quot;Courier New&quot;, monospace;text-align: center;font-size: 29px;font-weight: 700;margin-top: auto;margin-bottom: auto;margin-right: auto;margin-left: auto;font-style: normal;text-shadow: 2px 2px 2px rgb(0, 90, 169);line-height: initial;" class="descriptionText">
                     [GAME NAME] is a multiplayer, first-person shooter game. The game is in early development but is updated regularly with new content.
                 </p>
@@ -174,27 +174,27 @@
             <div id="socialLinks_portraitMode"
                 style="display: flex; position: absolute; top: 0px; width: 100%; place-content: center; pointer-events: all;">
                 <a href="https://u3d.as/1Xr0" target="_blank" class="facebook hvr-buzz-out"
-                    style="display: none;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
+                    style="display: block;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
                     <i class="fa fa-facebook"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="twitter hvr-buzz-out"
-                    style="display: none;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
+                    style="display: block;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
                     <i class="fa fa-twitter"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="google hvr-buzz-out"
-                    style="display: none;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
+                    style="display: block;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
                     <i class="fa fa-google"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="linkedin hvr-buzz-out"
-                    style="display: none;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
+                    style="display: block;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
                     <i class="fa fa-linkedin"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="youtube hvr-buzz-out"
-                    style="display: none;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
+                    style="display: block;width: calc(var(--agw)*6.60);height: calc(var(--agw)*6.60);">
                     <i class="fa fa-youtube"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
@@ -202,40 +202,40 @@
             <div id="storeLinks_portraitMode" class="storeLinks"
                 style="width: 100%; place-content: space-between space-evenly; align-items: center; display: flex; margin-right: auto; margin-left: auto; position: absolute; bottom: calc(10*var(--agw)); pointer-events: all; flex-wrap: wrap; direction: rtl;">
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: calc(21*var(--agw));">
+                    style="display: block;width: calc(21*var(--agw));">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" style="width: 100%;">
                 </a>
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: calc(21*var(--agw));">
+                    style="display: block;width: calc(21*var(--agw));">
                     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" style="width: 100%;">
                 </a>
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: calc(21*var(--agw));">
+                    style="display: block;width: calc(21*var(--agw));">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" style="width: 100%;">
                 </a>
             </div>
             <div id="socialLinks_landscapeMode" style="pointer-events: all; display: none;">
                 <a href="https://u3d.as/1Xr0" target="_blank" class="facebook hvr-buzz-out"
-                    style="display: none;">
+                    style="display: block;">
                     <i class="fa fa-facebook"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="twitter hvr-buzz-out"
-                    style="display: none;">
+                    style="display: block;">
                     <i class="fa fa-twitter"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
-                <a href="https://u3d.as/1Xr0" target="_blank" class="google hvr-buzz-out" style="display: none;">
+                <a href="https://u3d.as/1Xr0" target="_blank" class="google hvr-buzz-out" style="display: block;">
                     <i class="fa fa-google"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="linkedin hvr-buzz-out"
-                    style="display: none;">
+                    style="display: block;">
                     <i class="fa fa-linkedin"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
                 <a href="https://u3d.as/1Xr0" target="_blank" class="youtube hvr-buzz-out"
-                    style="display: none;">
+                    style="display: block;">
                     <i class="fa fa-youtube"
                         style="font-style: normal;font-variant-caps: normal;font-weight: normal;font-size: 14px;line-height: 1;font-family: FontAwesome;font-variant-alternates: normal;font-variant-east-asian: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-position: normal;font-size: inherit;"></i>
                 </a>
@@ -243,38 +243,38 @@
             <div id="storeLinks_landscapeMode" class="storeLinks"
                 style="width: calc(20*var(--agw));align-items: center;display: flex;position: absolute;transform: translate(0%, -50%);flex-wrap: wrap;align-content: space-evenly;direction: rtl;pointer-events: all;top: 45%;bottom: 50px;right: 1vw;left: auto;height: calc(17*var(--agw));">
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: 85%;">
+                    style="display: block;width: 85%;">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" style="width: 100%;">
                 </a>
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: 85%;">
+                    style="display: block;width: 85%;">
                     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" style="width: 100%;">
                 </a>
                 <a class="hvr-buzz-out" href="https://u3d.as/1Xr0" target="_blank" 
-                    style="display: none;width: 85%;">
+                    style="display: block;width: 85%;">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Get_it_from_Microsoft_Badge.svg" style="width: 100%;">
                 </a>
             </div>
             <div id="footer"
                 style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; bottom: 0px;position: absolute;margin: auto; width: 100%;pointer-events: all;">
-                <div class="footerItem" style="display: none; margin: calc(var(--agw)*1);">
+                <div class="footerItem" style="display: block; margin: calc(var(--agw)*1);">
                     <a id="privacy" class="hvr-grow footerItemText_portraitMode" href="https://u3d.as/1Xr0" target="_blank">
                         Privacy Policy
                     </a>
                 </div>
-                <div class="footerItem" style="display: none; margin: calc(var(--agw)*1);">
+                <div class="footerItem" style="display: block; margin: calc(var(--agw)*1);">
                     <a id="terms" class="hvr-grow footerItemText_portraitMode" href="https://u3d.as/1Xr0" target="_blank">
                         Terms of Service
                     </a>
                 </div>
-                <div class="footerItem" style="display: none; margin: calc(var(--agw)*1);">
+                <div class="footerItem" style="display: block; margin: calc(var(--agw)*1);">
                     <a id="copyright" class="hvr-grow footerItemText_portraitMode" href="https://u3d.as/1Xr0" target="_blank">
                         Copyright © 2020 Agnosia Games
                     </a>
                 </div>
             </div>
             <a id="companyLogo" href="https://u3d.as/1Xr0" target="_blank" class="hvr-buzz-out companyLogo_portraitMode"
-                style="pointer-events: all; display: none;">
+                style="pointer-events: all; display: block;">
                 <img class="companyLogoImage" src="companyLogo.png">
             </a>
             <button title="Enter fullscreen" id="fullscreenButton" onclick="toggle_fullscreen()"
