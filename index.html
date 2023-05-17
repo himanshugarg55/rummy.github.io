@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebGLScreenOrientationDetect</title>
+    <title>Unity WebGL Player | WebGLInput</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">WebGLScreenOrientationDetect</div>
+        <div id="unity-build-title">WebGLInput</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CameraWebglBuild.loader.js";
+      var loaderUrl = buildUrl + "/rummy.github.io.loader.js";
       var config = {
-        dataUrl: buildUrl + "/CameraWebglBuild.data",
-        frameworkUrl: buildUrl + "/CameraWebglBuild.framework.js",
-        codeUrl: buildUrl + "/CameraWebglBuild.wasm",
+        dataUrl: buildUrl + "/rummy.github.io.data.gz",
+        frameworkUrl: buildUrl + "/rummy.github.io.framework.js.gz",
+        codeUrl: buildUrl + "/rummy.github.io.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "WebGLScreenOrientationDetect",
+        productName: "WebGLInput",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
@@ -83,15 +83,13 @@
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
-
-        watchScreen();
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
@@ -116,21 +114,6 @@
         });
       };
       document.body.appendChild(script);
-
-      var sWidth = window.innerWidth;
-      var sHeight = window.innerHeight;
-      function watchScreen() {
-        requestAnimationFrame(watchScreen);
-        if(sWidth !== window.innerWidth || sHeight != window.innerHeight){
-          if(window.onOrientationChange) {
-            window.onOrientationChange(window.orientation);
-          }
-          sWidth = window.innerWidth;
-          sHeight = window.innerHeight;
-          canvas.style.width = sWidth + 'px';
-          canvas.style.height = sHeight + 'px';
-        }
-      }
     </script>
   </body>
 </html>
