@@ -3,7 +3,7 @@
 // Min Aspect Ratio = 2
 // Max-Min Aspect Ratio (MMAR) = 3
 // Maximize To Window = 4
-var options = 0;
+var options = 4;
 
 
 
