@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "msg": "Payment created successfully",
+  "data": {
+      "prefetch_payload": {
+          "service": "in.juspay.hyperpay",
+          "betaAssets": true,
+          "payload": {
+              "clientId": "passiongaming"
+          }
+      },
+      "initiate_payload": {
+          "requestId": "293a83652b1f4c9facc78ee04e8cf4b4",
+          "service": "in.juspay.hyperpay",
+          "betaAssets": true,
+          "payload": {
+              "action": "initiate",
+              "merchantId": "passiongaming",
+              "clientId": "passiongaming",
+              "customerId": "QA8",
+              "environment": "sandbox"
+          }
+      },
+      "process_payload": {
+          "requestId": "293a83652b1f4c9facc78ee04e8cf4b4",
+          "service": "in.juspay.hyperpay",
+          "payload": {
+              "clientId": "passiongaming",
+              "amount": "200.0",
+              "merchantId": "passiongaming",
+              "clientAuthToken": "tkn_40546e5a880d4a77bfb9cd742fb252bd",
+              "clientAuthTokenExpiry": "2023-02-17T06:51:00Z",
+              "environment": "sandbox",
+              "action": "paymentPage",
+              "customerId": "QA8",
+              "returnUrl": "https://wl.rummypassion.in/",
+              "currency": "INR",
+              "customerPhone": "9953469935",
+              "customerEmail": "rummypassion@example.com",
+              "orderId": "82282120559"
+          }
+      },
+      "order_id": "82282120559",
+      "order_link": "https://sandbox.juspay.in/orders/ordeh_c12968d4e38f4b1199f1d6ad07beca73/payment-page"
+  }
+}
