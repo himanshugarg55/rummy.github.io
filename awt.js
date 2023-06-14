@@ -24,22 +24,22 @@ else
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 setInterval(() => {
-    var width1 = document.querySelector(".awtCanvas2").clientWidth;
-    var size = 1.5;
+    //var width1 = document.querySelector(".awtCanvas2").clientWidth;
+    //var size = 1.5;
 
-    document.querySelector("html").style.fontSize = ((width1 / 100) * size) + "px";
+    //document.querySelector("html").style.fontSize = ((width1 / 100) * size) + "px";
 }, 200);
 
 function f2()
 {
-    var agw = Math.sqrt(awtCanvas2.clientWidth * awtCanvas2.clientHeight) / 100;
+    //var agw = Math.sqrt(awtCanvas2.clientWidth * awtCanvas2.clientHeight) / 100;
     
-    var var1 = 1.5;
-    var agv = Math.sqrt($(window).width() * $(window).height()) / (100 * var1);
+    //var var1 = 1.5;
+    //var agv = Math.sqrt($(window).width() * $(window).height()) / (100 * var1);
 
-    document.documentElement.style.setProperty('--agw', `${agw}px`);
-    document.documentElement.style.setProperty('--agwww', `${agw}`);
-    document.documentElement.style.setProperty('--agv', `${agv}px`);
+    //document.documentElement.style.setProperty('--agw', `${agw}px`);
+    //document.documentElement.style.setProperty('--agwww', `${agw}`);
+    //document.documentElement.style.setProperty('--agv', `${agv}px`);
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
