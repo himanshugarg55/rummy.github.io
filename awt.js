@@ -60,7 +60,7 @@ var landscapeMode = false;
 var awtCanvas1 = document.querySelector(".awtCanvas1");
 var awtBackground = document.querySelector(".awtBackground");
 var awtGameCanvas = document.querySelector(".awtGameCanvas");
-var awtCanvas2 = document.querySelector(".awtCanvas2");
+//var awtCanvas2 = document.querySelector(".awtCanvas2");
 
 var lastWidth = 0;
 var lastHeight = 0;
@@ -151,8 +151,8 @@ function f1() {
     else
     {
         maximize = true;
-        awtCanvas2.style.height = "100%";
-        awtCanvas2.style.width = "100%";
+        //awtCanvas2.style.height = "100%";
+        //awtCanvas2.style.width = "100%";
         awtBackground.style.height = "100%";
         awtBackground.style.width = "100%";
         awtGameCanvas.style.width = "100%";
@@ -231,8 +231,8 @@ function resize() {
     awtGameCanvas.style.height = height * scale + "px";
     awtGameCanvas.style.width = width * scale + "px";
     
-    awtCanvas2.style.height = height * scale + "px";
-    awtCanvas2.style.width = width * scale + "px";
+    //awtCanvas2.style.height = height * scale + "px";
+    //awtCanvas2.style.width = width * scale + "px";
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
