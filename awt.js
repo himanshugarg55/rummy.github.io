@@ -2,23 +2,23 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 if (watchVideoButtonAutoSize) {
-    $('#text1').textfill({
-        maxFontPixels: 500
-    });
+    //$('#text1').textfill({
+    //    maxFontPixels: 500
+    //});
 }
 else
 {
-    document.querySelector("#text1").style.fontSize = watchVideoButtonFontSize;
+    //document.querySelector("#text1").style.fontSize = watchVideoButtonFontSize;
 }
 
 if (playPongButtonAutoSize) {
-    $('#text2').textfill({
-        maxFontPixels: 500
-    });
+    //$('#text2').textfill({
+    //    maxFontPixels: 500
+    //});
 }
 else
 {
-    document.querySelector("#text2").style.fontSize = playPongButtonFontSize;
+    //document.querySelector("#text2").style.fontSize = playPongButtonFontSize;
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -170,24 +170,24 @@ function f1() {
     {
         if (!portraitMode && !unityInstantiated)
         {
-            document.querySelector("#storeLinks_portraitMode").style.display = "flex";
-            document.querySelector("#storeLinks_landscapeMode").style.display = "none";
+            //document.querySelector("#storeLinks_portraitMode").style.display = "flex";
+            //document.querySelector("#storeLinks_landscapeMode").style.display = "none";
     
-            document.querySelector("#socialLinks_portraitMode").style.display = "flex";
-            document.querySelector("#socialLinks_landscapeMode").style.display = "none";
+            //document.querySelector("#socialLinks_portraitMode").style.display = "flex";
+            //document.querySelector("#socialLinks_landscapeMode").style.display = "none";
     
-            document.querySelector("#privacy").classList.remove("footerItemText");
-            document.querySelector("#terms").classList.remove("footerItemText");
-            document.querySelector("#copyright").classList.remove("footerItemText");
+            //document.querySelector("#privacy").classList.remove("footerItemText");
+            //document.querySelector("#terms").classList.remove("footerItemText");
+            //document.querySelector("#copyright").classList.remove("footerItemText");
 
-            document.querySelector("#privacy").classList.add("footerItemText_portraitMode");
-            document.querySelector("#terms").classList.add("footerItemText_portraitMode");
-            document.querySelector("#copyright").classList.add("footerItemText_portraitMode");
+            //document.querySelector("#privacy").classList.add("footerItemText_portraitMode");
+            //document.querySelector("#terms").classList.add("footerItemText_portraitMode");
+            //document.querySelector("#copyright").classList.add("footerItemText_portraitMode");
 
-            document.querySelector("#companyLogo").classList.remove("companyLogo");
-            document.querySelector("#companyLogo").classList.add("companyLogo_portraitMode");
+            //document.querySelector("#companyLogo").classList.remove("companyLogo");
+            //document.querySelector("#companyLogo").classList.add("companyLogo_portraitMode");
 
-            document.querySelector("#fullscreenButton").style.bottom = "auto";
+            //document.querySelector("#fullscreenButton").style.bottom = "auto";
 
             portraitMode = true;
             landscapeMode = false;
@@ -197,24 +197,24 @@ function f1() {
     {
         if (!landscapeMode && !unityInstantiated)
         {
-            document.querySelector("#storeLinks_portraitMode").style.display = "none";
-            document.querySelector("#storeLinks_landscapeMode").style.display = "flex";
+            //.querySelector("#storeLinks_portraitMode").style.display = "none";
+            //document.querySelector("#storeLinks_landscapeMode").style.display = "flex";
 
-            document.querySelector("#socialLinks_portraitMode").style.display = "none";
-            document.querySelector("#socialLinks_landscapeMode").style.display = "block";
+            //document.querySelector("#socialLinks_portraitMode").style.display = "none";
+            //document.querySelector("#socialLinks_landscapeMode").style.display = "block";
 
-            document.querySelector("#privacy").classList.add("footerItemText");
-            document.querySelector("#terms").classList.add("footerItemText");
-            document.querySelector("#copyright").classList.add("footerItemText");
+            //document.querySelector("#privacy").classList.add("footerItemText");
+            //document.querySelector("#terms").classList.add("footerItemText");
+            //document.querySelector("#copyright").classList.add("footerItemText");
 
-            document.querySelector("#privacy").classList.remove("footerItemText_portraitMode");
-            document.querySelector("#terms").classList.remove("footerItemText_portraitMode");
-            document.querySelector("#copyright").classList.remove("footerItemText_portraitMode");
+            //document.querySelector("#privacy").classList.remove("footerItemText_portraitMode");
+            //document.querySelector("#terms").classList.remove("footerItemText_portraitMode");
+            //document.querySelector("#copyright").classList.remove("footerItemText_portraitMode");
 
-            document.querySelector("#companyLogo").classList.add("companyLogo");
-            document.querySelector("#companyLogo").classList.remove("companyLogo_portraitMode");
+            //document.querySelector("#companyLogo").classList.add("companyLogo");
+            //document.querySelector("#companyLogo").classList.remove("companyLogo_portraitMode");
 
-            document.querySelector("#fullscreenButton").style.bottom = "0";
+            //document.querySelector("#fullscreenButton").style.bottom = "0";
 
             landscapeMode = true;
             portraitMode = false;
