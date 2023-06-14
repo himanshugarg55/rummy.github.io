@@ -440,10 +440,10 @@
 		typeof (imprint) != "undefined" && imprint.test(deviceTests).then(function (myresult) {
 			deviceFingerPrint = myresult;
 			console.log('myresult',myresult);
-			applicationInstance.SendMessage('StartGameManager', 'GetWebGLImprintValue', deviceFingerPrint);
+			unityInstance.SendMessage('StartGameManager', 'GetWebGLImprintValue', deviceFingerPrint);
 			
 		});
-		applicationInstance.SendMessage('StartGameManager', 'GetWebGLUserAgentValue', agent);
+		unityInstance.SendMessage('StartGameManager', 'GetWebGLUserAgentValue', agent);
 	};
  </script>
  <script>
@@ -451,13 +451,13 @@
 	console.log('GetWebGLLocationSuccess_'+position);
 	 latt = position.coords.latitude;
      longi = position.coords.longitude;
-	applicationInstance.SendMessage('SocketIOManager', 'GetWebGLLocationLattValue', latt);
-	applicationInstance.SendMessage('SocketIOManager', 'GetWebGLLocationLongiValue', longi);
+	unityInstance.SendMessage('SocketIOManager', 'GetWebGLLocationLattValue', latt);
+	unityInstance.SendMessage('SocketIOManager', 'GetWebGLLocationLongiValue', longi);
 	};
 
 	const errorCallback =(error)=>{
 	console.error('GetWebGLLocationError_'+error);
-	applicationInstance.SendMessage('SocketIOManager', 'GetWebGLLocationError', 'Error_'+error);
+	unityInstance.SendMessage('SocketIOManager', 'GetWebGLLocationError', 'Error_'+error);
 	switch (error.code) {
                 case error.PERMISSION_DENIED:
                     console.log("The application doesn't have the permission to make use of location services");
@@ -483,7 +483,7 @@
 			});
 		}
 		else{
-			applicationInstance.SendMessage('SocketIOManager', 'GetWebGLLocationError', 'Error_: geolocation error');
+			unityInstance.SendMessage('SocketIOManager', 'GetWebGLLocationError', 'Error_: geolocation error');
 		}
 		const id = navigator.geolocation.watchPosition(successCallback, errorCallback);
 	}
