@@ -696,7 +696,7 @@ path.two {
   }
   
   .adblockerPopupModal {
-	background-color: #42040b;
+	background-color: #fff;
 	padding: 20px 20px;
 	text-align: center;
 	border-radius: 25px;
@@ -824,7 +824,7 @@ path.two {
   }
   .loader{
 	margin-bottom: 68px;
-	padding: 10px 755px;
+	padding: 13px 476px;
   }
   .loader img{
 	width: 140px;
@@ -862,3 +862,6 @@ path.two {
  .percent:after {
 	content: '%';
  }
+ .hidden {
+  display: none;
+}
