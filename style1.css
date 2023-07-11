@@ -12,6 +12,17 @@
 	top: 0pt;
 	bottom: 0px;
 }
+.width{
+	width: 1080px !important;
+	height: 100vh;
+	padding: 50px 0px;
+}
+.back{
+	background-image: url(Bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .awtBackground {
 	display: block;
@@ -685,12 +696,12 @@ path.two {
   }
   
   .adblockerPopupModal {
-	background-color: #fff;
+	background-color: #42040b;
 	padding: 20px 20px;
 	text-align: center;
 	border-radius: 25px;
 	}
-	}
+	
   
   .modal-image {
 	margin: 0 auto;
@@ -760,3 +771,94 @@ path.two {
 	from {opacity:0}
 	to {opacity: 0.6}
   }
+
+  @media only screen and (max-width: 600px) {
+	.width{
+		width: 100% !important;
+		padding: 0px;
+	}
+	.logo{
+		margin-bottom: 20px;
+	  }
+	  .logo img{
+		width: 56% !important;
+		border-radius: 10px;
+	  }
+	  .icon{
+		margin-bottom: 20px !important;
+	  }
+	  .icon img{
+		width: 82% !important;
+	  }
+	  .loader{
+		margin: 71px 0px !important;
+		padding: 10px 163px !important;
+	  }
+	  .loader img{
+		width: 56px;
+	  }
+  }
+
+  .main{
+	width: 100%;
+    height: 100vh;
+	background-image: url(Login-14.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 200px 0px;
+  }
+  .logo{
+	margin-bottom: 40px;
+  }
+  .logo img{
+	width: 20%;
+    border-radius: 10px;
+  }
+  .icon{
+	margin-bottom: 40px;
+  }
+  .icon img{
+	width: 39%;
+  }
+  .loader{
+	margin-bottom: 68px;
+	padding: 10px 755px;
+  }
+  .loader img{
+	width: 140px;
+  }
+  
+  .graph-donut {
+	position: relative;
+    display: inline-block;
+    width: 87px;
+    text-align: center;
+ }
+ 
+ .graph-donut canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+ }
+ 
+ .graph-title {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #453d33;
+ }
+ 
+ .percent {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: bold;
+}
+ 
+ .percent:after {
+	content: '%';
+ }
