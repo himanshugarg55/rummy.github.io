@@ -277,7 +277,8 @@ function request_fullscreen () {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
-  var showProgress = document.querySelector(".progressText").style.display;
+  var showProgress = document.querySelector(".progressText").style.display
+  ;;
 
   if (!startToLoadButton)
   {
