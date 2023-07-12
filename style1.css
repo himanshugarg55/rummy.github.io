@@ -1020,7 +1020,7 @@ color: rgb(190, 246, 255);
 	margin-left: auto;
 	top: 0pt;
 	bottom: 0px;
-	padding: 80px;
+	padding: 60px;
 	background-image: url("Bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1593,8 +1593,8 @@ path.two {
 	background-size: 1000px;
 	background-position: center;
 	text-align: center;
-	padding: 200px;
-	margin-top: 50px;
+	padding: 250px;
+	margin-top: 85px;
 	margin-bottom: 50px;
 	
   }
