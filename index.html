@@ -28,12 +28,13 @@
 
     <script src="awtConfigurations.js"></script>
     <script src="autoSizeText.min.js"></script>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.min.js"></script>
 
 </head>
 
-<body style="background-color: #232323; text-align: center;">
+<body style="background-image: url("Bg.png"); text-align: center;">
 
     <div class="awtGameCanvas" style="width: 100%; height: 100%;">
         <div id="gameContainer">
@@ -60,6 +61,7 @@
             </div>
             <p class="progressText" id="startToLoadButtonDiv" onclick="startToLoad();" style="display: none;"> LOADING...</p>
             <div class="main">
+            <div class="main1">
                 <div class="logo">
                     <img src="logo.png">
                 </div>
@@ -72,6 +74,7 @@
                     <img src="icons with text.png">
                 </div>
             </div>
+          </div>
         
             <script type="text/javascript">
               $(element).show().delay(3000).fadeOut();
@@ -384,8 +387,8 @@
           scaleColor: false,
           scaleLength: 2,
           lineCap: 'circle',
-          lineWidth: '3',
-          size: 40,
+          lineWidth: '2',
+          size: 30,
           onStep: function(from, to, percent) {
         
             $(this.el).find('.percent').text(Math.round(percent));

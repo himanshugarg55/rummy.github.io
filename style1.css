@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 .awtCanvas1 {
 	display: block;
 	position: fixed;
@@ -594,9 +594,6 @@ justify-content: center;
     margin-right: 45px;
 }
 
-  span {
-    transform: skewX(15deg); 
-  }
 
   span:nth-child(2) {
     width: 20px;
@@ -1023,8 +1020,8 @@ color: rgb(190, 246, 255);
 	margin-left: auto;
 	top: 0pt;
 	bottom: 0px;
-	padding: 60px;
-	background-image: url("Login-14.png");
+	padding: 80px;
+	background-image: url("Bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1368,9 +1365,6 @@ justify-content: center;
     margin-right: 45px;
 }
 
-  span {
-    transform: skewX(15deg); 
-  }
 
   span:nth-child(2) {
     width: 20px;
@@ -1547,18 +1541,18 @@ path.two {
 		margin-bottom: 20px;
 	  }
 	  .logo img{
-		width: 56% !important;
+		width: 84% !important;
 		border-radius: 10px;
 	  }
 	  .icon{
 		margin-bottom: 20px !important;
 	  }
 	  .icon img{
-		width: 82% !important;
+		width: 100% !important;
 	  }
 	  .loader{
 		margin: 71px 0px !important;
-		padding: 10px 163px !important;
+		padding: 10px 107px !important;
 	  }
 	  .loader img{
 		width: 56px;
@@ -1567,39 +1561,59 @@ path.two {
 		transform: scale(calc(.17*var(--agwww)));
 	 }
 	 .percent{
-		margin-top: 13px;
+		position: absolute;
+    top: -3px;
+    right: 17px;
 	 }
 	 #loader{
 		padding: 0;
 	 }
+	 .main1{
+		padding: 294px 80px !important;
+		
+		
+	  }
+	  .main{
+		display: flex;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+	  }
   }
 
   .main{
-	width: 100%;
     height: 100vh;
+	background-image: url(Bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	
+  }
+  .main1{
 	background-image: url(Login-14.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
-	padding: 200px 0px;
+	padding: 200px 80px;
+	margin: 40px;
   }
   .logo{
 	margin-bottom: 40px;
   }
   .logo img{
-	width: 200px;
-    border-radius: 10px;
+	width: 100px;
   }
   .icon{
 	margin-bottom: 40px;
   }
   .icon img{
-	width: 400px;
+	width: 200px;
   }
   .loader{
 	margin-bottom: 68px;
-	padding: 13px 476px;
+	padding:0px 591px;
   }
   .loader img{
 	width: 140px;
@@ -1631,11 +1645,13 @@ path.two {
  
  .percent {
     display: inline-block;
-    font-size: 12px;
+    font-size: 8px;
     color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-weight: bold;
-	font-style: normal;
+    font-family: 'proxima-nova', sans-serif !important;
+    font-weight: 800;
+    position: absolute;
+    top: 9px;
+    right: 18px;
 }
  
  .percent:after {
