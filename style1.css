@@ -1569,8 +1569,11 @@ path.two {
 		padding: 0;
 	 }
 	 .main1{
-		padding: 294px 80px !important;
-		
+		padding: 311px 80px !important;
+		background-image: url(Login-14123.png) !important;
+		background-size: cover !important;
+		margin-top: 0px !important;
+	margin-bottom: 0px !important;
 		
 	  }
 	  .main{
@@ -1582,22 +1585,18 @@ path.two {
   }
 
   .main{
-    height: 100vh;
-	background-image: url(Bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 	
   }
   .main1{
-	background-image: url(Login-14.png);
+	background-image: url(bg-image.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1000px;
 	background-position: center;
 	text-align: center;
-	padding: 200px 80px;
-	margin: 40px;
+	padding: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
   }
   .logo{
 	margin-bottom: 40px;
