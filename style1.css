@@ -4,7 +4,6 @@
 	display: block;
 	position: fixed;
 	width: 1024px;
-	height: 576px;
 	margin-top: auto;
 	margin-right: auto;
 	margin-bottom: auto;
@@ -1020,7 +1019,7 @@ color: rgb(190, 246, 255);
 	margin-left: auto;
 	top: 0pt;
 	bottom: 0px;
-	padding: 60px;
+	padding: 60px 300px;
 	background-image: url("Bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1590,12 +1589,11 @@ path.two {
   .main1{
 	background-image: url(bg-image.png);
 	background-repeat: no-repeat;
-	background-size: 1000px;
+	background-size: 900px;
 	background-position: center;
 	text-align: center;
 	padding: 250px;
-	margin-top: 85px;
-	margin-bottom: 50px;
+
 	
   }
   .logo{
@@ -1612,7 +1610,7 @@ path.two {
   }
   .loader{
 	margin-bottom: 68px;
-	padding:0px 591px;
+	padding:0px 459px;
   }
   .loader img{
 	width: 140px;

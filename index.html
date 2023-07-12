@@ -48,7 +48,7 @@
             <canvas class="pg-canvas" width="0" height="1178" style="display: block;"></canvas>
         </div>
         <div id="pf" class="vertical-centered-box">
-            <canvas class="pg-canvas" width="0" style="display: block;"></canvas>
+            <canvas class="" width="0" style="display: block;"></canvas>
             <canvas class="pg-canvas" width="0" height="1178" style="display: block;"></canvas>
         </div>
     </div>
@@ -79,7 +79,7 @@
           
             <p class="progressText" id="startToLoadButtonDiv" onclick="startToLoad();" style="display: none;"> LOADING...</p>
            
-            
+          
         
         <script>
         
@@ -687,8 +687,7 @@
 
                     applicationInstance = unityInstance;
                     unityInstantiated = true;
-
-					loader.querySelector(".main").style.display = "none";
+                    loader.querySelector(".main").style.display = "none";
                     loader.querySelector(".progressBar").style.display = "none";
                     loader.querySelector(".progressText").style.display = "none";
                     loader.querySelector(".gameLogo").style.display = "none";
