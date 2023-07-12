@@ -1263,7 +1263,6 @@ html {
 box-sizing: inherit;
   }
   body {
-background-color: #232323;
 margin-top: auto;
 margin-right: auto;
 margin-bottom: auto;
@@ -1591,8 +1590,9 @@ path.two {
 	background-repeat: no-repeat;
 	background-size: 900px;
 	background-position: center;
-	text-align: center;
 	padding: 250px;
+	margin-top: 80px;
+	margin-bottom: 50px;
 
 	
   }
@@ -1610,7 +1610,7 @@ path.two {
   }
   .loader{
 	margin-bottom: 68px;
-	padding:0px 459px;
+	padding:0px 531px;
   }
   .loader img{
 	width: 140px;
