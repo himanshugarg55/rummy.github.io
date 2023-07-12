@@ -79,9 +79,7 @@
           
             <p class="progressText" id="startToLoadButtonDiv" onclick="startToLoad();" style="display: none;"> LOADING...</p>
            
-            <script type="text/javascript">
-              $(element).show().delay(5000).fadeOut();
-              </script>
+            
         
         <script>
         
@@ -690,6 +688,7 @@
                     applicationInstance = unityInstance;
                     unityInstantiated = true;
 
+					loader.querySelector(".main").style.display = "none";
                     loader.querySelector(".progressBar").style.display = "none";
                     loader.querySelector(".progressText").style.display = "none";
                     loader.querySelector(".gameLogo").style.display = "none";
