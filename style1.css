@@ -1610,7 +1610,7 @@ path.two {
   }
   .loader{
 	margin-bottom: 68px;
-	padding:0px 531px;
+	padding:0% 31%;
   }
   .loader img{
 	width: 140px;
@@ -1660,3 +1660,21 @@ path.two {
 .pg-canvas{
 	background: none !important;
 }
+
+  @media (max-width:1599px) and (min-width:1281px) {
+    .main1{
+		padding: 250px !important;
+		margin-top: 4.5% !important;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.main1{
+		padding: 175px !important;
+		margin-top: 4.5% !important;
+	}
+  }
+  
+  .beyond{
+	padding: 250px !important;
+		margin-top: 4.5% !important;
+  }
