@@ -1586,7 +1586,7 @@ path.two {
 	
   }
   .main1{
-	background-image: url(bg-image.png);
+	background-image: url(bg-image.jpg);
 	background-repeat: no-repeat;
 	background-size: 900px;
 	background-position: center;
@@ -1676,5 +1676,5 @@ path.two {
   
   .beyond{
 	padding: 250px !important;
-		margin-top: 4.5% !important;
+	margin-top: 4.5% !important;
   }

@@ -52,7 +52,7 @@ pg(document.getElementById('pb'), { couxkxmnzf: 'rgba(255, 255, 255, 0.5)', bydq
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var maximize = false;
+var maximize = true;
 
 var portraitMode = false;
 var landscapeMode = false;
