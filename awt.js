@@ -52,7 +52,7 @@ pg(document.getElementById('pb'), { couxkxmnzf: 'rgba(255, 255, 255, 0.5)', bydq
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var maximize = true;
+var maximize = false;
 
 var portraitMode = false;
 var landscapeMode = false;
@@ -277,8 +277,7 @@ function request_fullscreen () {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
-  var showProgress = document.querySelector(".progressText").style.display
-  ;;
+  var showProgress = document.querySelector(".progressText").style.display;
 
   if (!startToLoadButton)
   {

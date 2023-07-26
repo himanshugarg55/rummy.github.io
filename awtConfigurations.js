@@ -7,7 +7,6 @@ var options = 4;
 
 
 
-
 // if it's not necessary, enter "1"
 
 // Max Aspect Ratio
