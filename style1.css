@@ -11,7 +11,9 @@
 	top: 0pt;
 	bottom: 0px;
 }
-
+#gameContainer{
+	padding:  50px 100px !important;
+}
 .awtBackground {
 	display: block;
 	position: fixed;
@@ -1533,7 +1535,7 @@ path.two {
 		padding: 0px;
 	}
 	#gameContainer{
-		padding: 0;
+		padding: 0 !important;
 	}
 	.logo{
 		margin-bottom: 20px;
