@@ -1685,3 +1685,15 @@ path.two {
 	padding: 250px !important;
 	margin-top: 4.5% !important;
   }
+ 
+  .landscape-style {
+	padding: 0 !important;
+
+}
+
+@media (min-width:720px) and (max-width:900px) {
+	#gameContainer{
+		padding: 0px 0px !important;
+	
+	}
+}​
